@@ -12,7 +12,7 @@ fs.writeFileSync('1-json.json', bookJSON)
 
 // console.log(bookJSON)
 
-// const parsedData = JSON.parse(book) // takes data in and converts to obkect
+// const parsedData = JSON.parse(book) // takes data in and converts to object
 // console.log(parsedData.author)
 
 // const  dataBuffer = fs.readFileSync('1-json.json')

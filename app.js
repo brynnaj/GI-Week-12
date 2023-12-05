@@ -85,7 +85,7 @@ yargs.command({
 yargs.command ({
     command:'list', // names the command
     describe: 'List your notes', // describes comand
-    handler() { //like an event listener, handles the command
+    handler() { // handles the command
         notes.listNotes()
     }
 })
